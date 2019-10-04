@@ -22,20 +22,46 @@ h4,h1{
   float:left;
 }
 
+#one, #two, #three{
+  text-indent: 20px;
+  word-spacing: .2em;
+  letter-spacing: 0.02em;
+  font-stretch: expanded;
+  font-size: 125%;
+  color: grey;
+}
+
 #recipe{
   position: absolute;
   z-index: -1;
 }
 
+.list1, .list2{
+  display: flex;
+  width: 40%;
+  float: left;
+  margin: 1%;
+  align-items: center;
+  font-size: 180;
+  line-height: 2;
+}
+
 .author{
-  margin-top: 10%;
+  margin-top: 45%;
+}
+
+button{
+  float: right;
+  color: white;
+  font-size: 150%;
+  padding: 5% 0 0 5%;
+  background-color: salmon;
+  height: 200%;
+
 }
 
 footer{
   width: 100%;
-  border: black solid;
+  text-align: center;
 }
 
-.page .content .pizza{
-  text-align: right;
-}
