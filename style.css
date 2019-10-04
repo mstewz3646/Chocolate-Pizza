@@ -14,12 +14,21 @@ header{
   width: auto;
 }
 
+.logo{
+  float: left;
+}
+
+#mast{
+  align-items: left;
+}
+
 #social{
   float: right;
 }
 
 h4,h1{
   float:left;
+  align-items: left;
 }
 
 #one, #two, #three{
@@ -42,8 +51,9 @@ h4,h1{
   float: left;
   margin: 1%;
   align-items: center;
-  font-size: 180;
-  line-height: 2;
+  font-size: larger;
+  line-height: 1.75;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .author{
@@ -53,10 +63,10 @@ h4,h1{
 button{
   float: right;
   color: white;
-  font-size: 150%;
-  padding: 5% 0 0 5%;
+  font-size: 120%;
+  padding: 2% 2% 2% 2%;
   background-color: salmon;
-  height: 200%;
+  height: 100%;
 
 }
 
